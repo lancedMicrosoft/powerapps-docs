@@ -77,7 +77,6 @@ You should use these addresses if, for example, you must whitelist IP addresses 
 | United States | 13.89.171.80 - 13.89.171.95, 52.173.245.164, 40.71.11.80 - 40.71.11.95, 40.71.249.205, 40.70.146.208 - 40.70.146.223, 52.232.188.154, 52.162.107.160 - 52.162.107.175, 52.162.242.161, 40.112.243.160 - 40.112.243.175, 104.42.122.49, 104.43.232.28, 104.43.232.242, 104.43.235.249, 104.43.234.211, 52.160.93.247, 52.160.91.66, 52.160.92.131, 52.160.95.100, 40.117.101.91, 40.117.98.246, 40.117.101.120, 40.117.100.191 |
 | United States (Early Access)  | 13.71.195.32 - 13.71.195.47, 52.161.102.22, 13.66.140.128 - 13.66.140.143, 52.183.78.157, 52.161.26.191, 52.161.27.42, 52.161.29.40, 52.161.26.33, 52.161.31.35, 13.66.213.240, 13.66.214.51, 13.66.210.166, 13.66.213.29, 13.66.208.24 |
 
-
 ## Required services
 This list identifies all services to which PowerApps Studio talks and their usages. Your network must **not** block these services.
 
@@ -92,7 +91,9 @@ This list identifies all services to which PowerApps Studio talks and their usag
 | *.powerapps.com |https |WebAuth + Portal |
 | *.azureedge.net |https |WebAuth |
 | *.blob.core.windows.net |https |Blob storage |
+| *.dynamics.com | https | Common Data Service |
 | vortex.data.microsoft.com |https |Telemetry |
+
 
 > [!NOTE]
 > If you're using a VPN, it must be configured to exclude localhost from tunneling for PowerApps Mobile.
